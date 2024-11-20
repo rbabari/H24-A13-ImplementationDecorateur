@@ -1,5 +1,8 @@
+package decorateurs;
+import utils.*;
+
 // Decorateur Concret 1
-public class Ognion extends Ingredient{
+public class Ognion extends Ingredient {
     public Ognion(Plat plat)
     {
         this.sur = plat;
